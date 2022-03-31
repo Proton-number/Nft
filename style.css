@@ -1,0 +1,114 @@
+body{
+	padding: 0;
+	margin: 0;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	
+	background-color: hsl(217 54% 11% );
+	font-family: 'Outfit', sans-serif;
+
+}
+
+.container{
+	justify-content: center;
+	background-color: hsl(216, 50%, 16%);
+	box-shadow:0 0 100px 10px hsl(215deg 61% 7%);
+	width: 300px;
+	height: 520px;
+	padding: 1.25rem;
+    margin-top: 60px;
+    border-radius: 10px;
+
+	}
+
+
+.eth-img{
+	
+        position: relative;
+        display: inline-block;
+    
+}
+
+.eth-img .nft-img img{
+	height: 300px;
+	width: 300px;
+}
+
+
+
+
+.eth-img .eye-img .eye{
+	 background-color: hsl(178, 100%, 50%, 60%);
+        position: absolute;
+        top: 0px;
+        display: none;
+        left: 0px;
+
+       padding: 42%;
+        z-index: 99;
+}
+
+.eth-img:hover .eye-img .eye{
+	display: inline;
+  
+}
+
+.words h3{
+	color: white;
+	font-weight: 30px;
+}
+
+.words p{
+	color: hsl(0, 0%, 100%, 60%);
+}
+
+.mid{
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem 0;
+	
+	border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.mid .eth {
+	display: flex;
+	padding: 3px;
+	
+}
+
+.mid .eth span{
+	margin-left: 5px;
+	color: hsl(178, 100%, 50%, 60%);
+}
+
+.mid .time{
+	display: flex;
+	padding: 3px;
+}
+
+.mid .time span{
+	margin-left: 5px;
+	color: hsl(0, 0%, 100%, 60%);
+}
+
+
+.bottom{
+	display: flex;
+	margin-top:10px;
+
+}
+.bottom img{
+	width: 15%;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+
+.bottom span{
+	margin-top: 14px;
+	margin-left: 12px
+}
+
+.bottom span i{
+	color: white;
+}
